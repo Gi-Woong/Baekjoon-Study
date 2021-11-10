@@ -17,7 +17,7 @@ def ishansu(n):
         if Ai != L[i]:
             return False
     return True
-
+#main
 num = int(input())
 ans = 0
 for i in range(1,num+1):
