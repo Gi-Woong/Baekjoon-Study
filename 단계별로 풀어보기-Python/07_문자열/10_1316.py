@@ -2,8 +2,8 @@
 #정보: 조건에 맞는 문자열을 찾는 문제
 
 def isgroup(S):
-    L = [S[0]]
-    prev = S[0]
+    L = []
+    prev = ""
     for s in S:
         if prev != s:
             if not s in L:
